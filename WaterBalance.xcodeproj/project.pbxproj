@@ -11,10 +11,9 @@
 		01E9F9D629E2BA21006C31C5 /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E9F9D529E2BA21006C31C5 /* SecondPage.swift */; };
 		01E9F9D829E2BDD6006C31C5 /* ThirdPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E9F9D729E2BDD6006C31C5 /* ThirdPage.swift */; };
 		01E9F9DA29E2C1DB006C31C5 /* FourthPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E9F9D929E2C1DB006C31C5 /* FourthPage.swift */; };
-		01E9F9DC29E2C929006C31C5 /* FifthPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E9F9DB29E2C929006C31C5 /* FifthPage.swift */; };
 		01E9F9DE29E2CB13006C31C5 /* SixthPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E9F9DD29E2CB13006C31C5 /* SixthPage.swift */; };
 		01E9F9E029E2D0AB006C31C5 /* SeventhPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E9F9DF29E2D0AB006C31C5 /* SeventhPage.swift */; };
-		52A01A0427637A540037F7D8 /* lecture_06App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A01A0327637A540037F7D8 /* lecture_06App.swift */; };
+		52A01A0427637A540037F7D8 /* WaterBalanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A01A0327637A540037F7D8 /* WaterBalanceApp.swift */; };
 		52A01A0827637A560037F7D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A01A0727637A560037F7D8 /* Assets.xcassets */; };
 		52A01A0B27637A560037F7D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A01A0A27637A560037F7D8 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -24,11 +23,10 @@
 		01E9F9D529E2BA21006C31C5 /* SecondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
 		01E9F9D729E2BDD6006C31C5 /* ThirdPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPage.swift; sourceTree = "<group>"; };
 		01E9F9D929E2C1DB006C31C5 /* FourthPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthPage.swift; sourceTree = "<group>"; };
-		01E9F9DB29E2C929006C31C5 /* FifthPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthPage.swift; sourceTree = "<group>"; };
 		01E9F9DD29E2CB13006C31C5 /* SixthPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthPage.swift; sourceTree = "<group>"; };
 		01E9F9DF29E2D0AB006C31C5 /* SeventhPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhPage.swift; sourceTree = "<group>"; };
-		52A01A0027637A540037F7D8 /* lecture-06.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lecture-06.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52A01A0327637A540037F7D8 /* lecture_06App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lecture_06App.swift; sourceTree = "<group>"; };
+		52A01A0027637A540037F7D8 /* WaterBalance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterBalance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A01A0327637A540037F7D8 /* WaterBalanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterBalanceApp.swift; sourceTree = "<group>"; };
 		52A01A0727637A560037F7D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52A01A0A27637A560037F7D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,7 +45,7 @@
 		52A019F727637A540037F7D8 = {
 			isa = PBXGroup;
 			children = (
-				52A01A0227637A540037F7D8 /* lecture-06 */,
+				52A01A0227637A540037F7D8 /* WaterBalance */,
 				52A01A0127637A540037F7D8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,26 +53,25 @@
 		52A01A0127637A540037F7D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52A01A0027637A540037F7D8 /* lecture-06.app */,
+				52A01A0027637A540037F7D8 /* WaterBalance.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		52A01A0227637A540037F7D8 /* lecture-06 */ = {
+		52A01A0227637A540037F7D8 /* WaterBalance */ = {
 			isa = PBXGroup;
 			children = (
-				52A01A0327637A540037F7D8 /* lecture_06App.swift */,
+				52A01A0327637A540037F7D8 /* WaterBalanceApp.swift */,
 				52A01A0727637A560037F7D8 /* Assets.xcassets */,
 				52A01A0927637A560037F7D8 /* Preview Content */,
 				01E9F9D329E2B027006C31C5 /* FirstPage.swift */,
 				01E9F9D529E2BA21006C31C5 /* SecondPage.swift */,
 				01E9F9D729E2BDD6006C31C5 /* ThirdPage.swift */,
 				01E9F9D929E2C1DB006C31C5 /* FourthPage.swift */,
-				01E9F9DB29E2C929006C31C5 /* FifthPage.swift */,
 				01E9F9DD29E2CB13006C31C5 /* SixthPage.swift */,
 				01E9F9DF29E2D0AB006C31C5 /* SeventhPage.swift */,
 			);
-			path = "lecture-06";
+			path = WaterBalance;
 			sourceTree = "<group>";
 		};
 		52A01A0927637A560037F7D8 /* Preview Content */ = {
@@ -88,9 +85,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		52A019FF27637A540037F7D8 /* lecture-06 */ = {
+		52A019FF27637A540037F7D8 /* WaterBalance */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52A01A0E27637A560037F7D8 /* Build configuration list for PBXNativeTarget "lecture-06" */;
+			buildConfigurationList = 52A01A0E27637A560037F7D8 /* Build configuration list for PBXNativeTarget "WaterBalance" */;
 			buildPhases = (
 				52A019FC27637A540037F7D8 /* Sources */,
 				52A019FD27637A540037F7D8 /* Frameworks */,
@@ -100,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = "lecture-06";
+			name = WaterBalance;
 			productName = "lecture-06";
-			productReference = 52A01A0027637A540037F7D8 /* lecture-06.app */;
+			productReference = 52A01A0027637A540037F7D8 /* WaterBalance.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -120,7 +117,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 52A019FB27637A540037F7D8 /* Build configuration list for PBXProject "lecture-06" */;
+			buildConfigurationList = 52A019FB27637A540037F7D8 /* Build configuration list for PBXProject "WaterBalance" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -133,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52A019FF27637A540037F7D8 /* lecture-06 */,
+				52A019FF27637A540037F7D8 /* WaterBalance */,
 			);
 		};
 /* End PBXProject section */
@@ -161,8 +158,7 @@
 				01E9F9E029E2D0AB006C31C5 /* SeventhPage.swift in Sources */,
 				01E9F9D629E2BA21006C31C5 /* SecondPage.swift in Sources */,
 				01E9F9DE29E2CB13006C31C5 /* SixthPage.swift in Sources */,
-				01E9F9DC29E2C929006C31C5 /* FifthPage.swift in Sources */,
-				52A01A0427637A540037F7D8 /* lecture_06App.swift in Sources */,
+				52A01A0427637A540037F7D8 /* WaterBalanceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +288,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"lecture-06/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WaterBalance/Preview Content\"";
 				DEVELOPMENT_TEAM = DN43NAC65F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -321,7 +317,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"lecture-06/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WaterBalance/Preview Content\"";
 				DEVELOPMENT_TEAM = DN43NAC65F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -346,7 +342,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52A019FB27637A540037F7D8 /* Build configuration list for PBXProject "lecture-06" */ = {
+		52A019FB27637A540037F7D8 /* Build configuration list for PBXProject "WaterBalance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52A01A0C27637A560037F7D8 /* Debug */,
@@ -355,7 +351,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52A01A0E27637A560037F7D8 /* Build configuration list for PBXNativeTarget "lecture-06" */ = {
+		52A01A0E27637A560037F7D8 /* Build configuration list for PBXNativeTarget "WaterBalance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52A01A0F27637A560037F7D8 /* Debug */,

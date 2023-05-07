@@ -11,13 +11,7 @@ struct SeventhPage: View {
     @State private var tabIndex = 0
     
     var body: some View {
-        TabView(selection: $tabIndex){
-            
-            Text("Third")
-                .tabItem {
-                    Label("Main", image: "grayMain")
-                }
-            
+        
             VStack{
                 NavTitle(text: "EDIT")
                 Spacer()
@@ -31,16 +25,6 @@ struct SeventhPage: View {
                 Spacer()
                 
             }
-            .tabItem {
-                Label("Settings",image: "BlueSetting") // redundant
-            }
-            .tag(0)
-            
-            Text("Second")
-                .tabItem {
-                    Label("History", image: "mainHistory")
-                }
-        }.accentColor(.blue)
     }
     var mainly: some View {
         VStack{
